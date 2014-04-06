@@ -1,10 +1,12 @@
-from setuptools import find_packages, setup
+from setuptools import setup
+
+PACKAGE = 'sessionprofile'
 
 setup(
         name='sessionprofile',
         version='1.0',
-        packages=find_packages(),
-        package_dir = {'': 'django/sessionprofile'},
+        packages=['sessionprofile'],
+        package_dir = {'': 'django'},
 
         platforms=['any'],
 )
