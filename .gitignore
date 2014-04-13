@@ -1,3 +1,5 @@
 .svn
 
 /django/sessionprofile.egg-info/
+/build
+/dist
